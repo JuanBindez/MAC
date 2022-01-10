@@ -49,15 +49,7 @@ def rep50():
 
 traco()
 
-print("               M       MM           A AA             CCCCC  ")
-print("               M      MMM          A  A A          CC       ")
-print("               M M   M MM         A    A A        CC        ")
-print("               M  M M  MM        A      A A       CC        ")
-print("               M   M   MM       A        A A      CC        ")
-print("               M       MM      A          A A     CC        ")
-print("               M       MM     A            A A    CC        ")
-print("               M       MM    A              A A    CC       ")
-print("               M       MM   A                A A     CCCCC     __REPETIDOR__V.02")
+print("===================================================== __REPETIDOR DE MAC__V.02======================================================================")
 
 traco()
 
