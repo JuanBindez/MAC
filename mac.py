@@ -1,4 +1,5 @@
 #python3
+import os
 
 
 def traco():
@@ -63,7 +64,6 @@ try:
     mac = int(input("quantas vezes você quer que repita o mac?"))
 except ValueError:
     os.system("clear")
-    time.sleep(2)
     print("digite apenas numeros!")
     
 
