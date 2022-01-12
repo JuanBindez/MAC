@@ -59,7 +59,13 @@ print("[30]")
 print("[40]")
 print("[50]")
 
-mac = int(input("quantas vezes você quer que repita o mac?"))
+try:
+    mac = int(input("quantas vezes você quer que repita o mac?"))
+except ValueError:
+    os.system("clear")
+    time.sleep(2)
+    print("digite apenas numeros!")
+    
 
 x = 0
 
