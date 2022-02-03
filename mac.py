@@ -2,13 +2,24 @@
 import os
 
 
+class color():
+    VERDE = '\033[92m'
+    VERMELHO = '\033[91m'
+    AMARELO = '\033[93m'
+    AZUL = '\033[1;34m'
+    MAGENTA = '\033[1;35m'
+    VERDE_CLARO = '\033[1;92m'
+    NEGRITO = '\033[;1m'
+    RESET = '\033[0m'
+
+
 def traco():
-    print("--------------------------------------------------------------------------------------")
+    print(color.AMARELO + "--------------------------------------------------------------------------------------")
 
 
 def rep10():
     x = 0
-    mac = input("insira o mac  =")
+    mac = input(color.AZUL + "insira o mac  =")
     while x < 10:
         print(f'{mac}')
         x = x + 1
@@ -16,7 +27,7 @@ def rep10():
 
 def rep20():
     x = 0
-    mac = input("insira o mac  =")
+    mac = input(color.AZUL + "insira o mac  =")
     while x < 20:
         print(f'{mac}')
         x = x + 1
@@ -24,7 +35,7 @@ def rep20():
 
 def rep30():
     x = 0
-    mac = input("insira o mac  =")
+    mac = input(color.AZUL + "insira o mac  =")
     while x < 30:
         print(f'{mac}')
         x = x + 1
@@ -32,7 +43,7 @@ def rep30():
 
 def rep40():
     x = 0
-    mac = input("insira o mac  =")
+    mac = input(color.AZUL + "insira o mac  =")
     while x < 40:
         print(f'{mac}')
         x = x + 1
@@ -40,7 +51,7 @@ def rep40():
 
 def rep50():
     x = 0
-    mac = input("insira o mac  =")
+    mac = input(color.AZUL + "insira o mac  =")
     while x < 50:
         print(f'{mac}')
         x = x + 1
@@ -50,7 +61,7 @@ def rep50():
 
 traco()
 
-print("===================================================== __REPETIDOR DE MAC__V.02======================================================================")
+print(color.AMARELO +"===================================================== __REPETIDOR DE MAC__V.02======================================================================")
 
 traco()
 
@@ -61,10 +72,10 @@ print("[40]")
 print("[50]")
 
 try:
-    mac = int(input("quantas vezes você quer que repita o mac?"))
+    mac = int(input(color.VERDE + "quantas vezes você quer que repita o mac?"))
 except ValueError:
     os.system("clear")
-    print("digite apenas numeros!")
+    print(color.VERMELHO + "digite apenas numeros!")
     
 
 x = 0
