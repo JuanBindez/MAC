@@ -2,7 +2,7 @@
 import os
 
 
-class color():
+class Color():
     VERDE = '\033[92m'
     VERMELHO = '\033[91m'
     AMARELO = '\033[93m'
